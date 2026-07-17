@@ -14,4 +14,9 @@ public class Customer {
     public String fun() {
         return "Welcome to Docker K8 World";
     }
+
+    @GetMapping("/gettt")
+    public String sun() {
+        return "Welcome to GitHub Actions";
+    }
 }
